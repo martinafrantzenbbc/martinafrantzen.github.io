@@ -1,0 +1,129 @@
+
+
+h1 {
+	font-family: Tahoma;
+	font-size: 40px; 
+}
+
+body {
+
+	height: 3219px;
+} 
+
+
+.test {
+
+	position: absolute;
+	top: 663px;
+	left: 232px;
+	width:1440px;
+	height: 362px;
+	background-color: #1e1e1e;
+}
+
+#video {
+ max-width: 100%; 
+/*  overflow: hidden;
+*/  padding-left: 20px;
+  display:inline-block;
+/*  margin:20px;
+*/
+/*  	height:180px;
+*/
+ 
+}
+
+video {
+	position:absolute;
+	width: 100%;
+	transition: opacity .40s ease-in-out;
+
+}
+
+.video {
+  height: 160px;
+  width: 300px;
+ position: relative;
+ display: inline-block;
+ margin:10px;
+
+
+
+}
+
+/*#title2
+{
+
+	margin: 30px;
+	font-size: 40px;
+}*/
+
+
+h1 {
+
+	font-size: 20px;
+	font-family: helvetica;
+	color: #fff;
+	font-weight: 200;
+	padding-left: 40px;
+	position: relative;
+	margin-bottom: 0px;
+
+
+}
+
+h2 {
+	font-size: 15px;
+}
+
+p {
+
+	font-family: arial;
+	color: #bbb;
+	font-size: 14px;
+	padding-left: 40px;
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+#item1 {
+	  background-image: url(../Localfile/images/image1.jpg);
+
+}
+
+#item2 {
+	  background-image: url('../Localfile/images/image2.jpg');
+
+}
+
+#item3 {
+	  background-image: url('../Localfile/images/image4.jpg');
+
+}
+
+/*.labels {
+	
+margin:0px;
+position: absolute;
+padding-left: 40px;
+
+}*/
+
+/*#channel1 {
+	margin
+	
+}*/
+
+/*#channel2 {
+margin-right: 30px;
+}
+*/
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+   display:none !important;
+}
+
+.hide {
+	opacity:0;
+}
