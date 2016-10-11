@@ -98,11 +98,12 @@ h3 {
 	font-size: 20px;
 	font-family: helvetica;
 	color: #01d3c1;
-	font-weight: thin;
+	font-weight: normal;
 /*	padding-left: 10px;
 *//*	padding-top: 20px;
 */	position: relative;
 	margin-left: 10px;
+	margin-bottom: 10px;
 /**//*	padding-top:10px*/
 
 }
