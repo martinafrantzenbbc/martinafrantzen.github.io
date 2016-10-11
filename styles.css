@@ -16,21 +16,29 @@ body {
 	position: absolute;
 	top: 663px;
 	left: 232px;
-	width:1440px;
+	width:976px;
 	height: 362px;
 	background-color: #1e1e1e;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 #video {
  max-width: 100%; 
 /*  overflow: hidden;
-*/  padding-left: 20px;
+*/ 
   display:inline-block;
 /*  margin:20px;
 */
 /*  	height:180px;
 */
  
+}
+
+.text {
+	position: absolute;
+	top: 150px;
+	left:-40px;
 }
 
 video {
